@@ -229,18 +229,57 @@ border-radius: 100px 0px 0px 0px;
 }
 
 
-@media screen and (max-width:600px){
-
+@media screen and (max-width:500px){
 body{
-    width: 600px;
+    max-width: 500px;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    margin: 20px 20px;
+    width: 900px;
+  
+   
+  
+}
+
+}
+
+
+
+/* .home-page .vector{
+   left: -35rem;
+   width: 30rem;
+   display:none;
+
+}
+
+.home-page-image .home-img{
+    top:70rem;
+    left:30rem;
+    display: none;
+    } */
+
+/*     
+body{
+    min-width: 600px;
+}
+
+.header-section{
+    min-width: 600px;
+}
+
+.navbar-menu {
+    min-width: 600px;
 }
      .home-page-text{
       position: relative;
-    bottom:12rem;
-    left:20rem
+   
     }
-    .highlight{
-        /* Beautiful food & takeaway, delivered to your door. */
+    .highlight{/
 
 position: absolute;
 width: 381px;
@@ -259,24 +298,13 @@ letter-spacing: 0.05em;
 color: #000000;
 
 
-    }
+    } */
 
    
 
 
  
 
-.home-page .vector{
-   left: -35rem;
-   width: 90rem;
-
-}
-
-.home-page-image .home-img{
-    top:70rem;
-    left:30rem;
-    }
-}
 
 
 
@@ -293,5 +321,4 @@ color: #000000;
 
 
 
-
-
+ 
